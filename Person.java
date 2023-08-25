@@ -5,4 +5,7 @@ public class Person {
     public String surname;
     public BigDecimal salary;
 
+    void count(){
+        System.out.println("count");
+    }
 }
