@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class Person {
     public String name;
     public String pesel;
@@ -7,4 +9,10 @@ public class Person {
         return "hello";
     }
 
+    public String surname;
+    public BigDecimal salary;
+
+    void count(){
+        System.out.println("count");
+    }
 }
